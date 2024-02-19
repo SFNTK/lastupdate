@@ -103,7 +103,7 @@ x:0,opacity:1,duration:2,stagger:{amount:1},ease: "power3.out",
             <div class="container-fluid" id='nvpc' style={{ cursor:"pointer",textAlign: "center", backgroundColor: "transparent" }}>
                 <span class="navbar-brand" onClick={()=>{
                     navigate("/")
-                }} style={{ color: "white"  }}>LOGO</span>
+                }} style={{ color: "white"  }}>KORAKIT</span>
 
 
                 <ul class="nv1" style={{paddingTop:"1%"}} >
@@ -171,7 +171,7 @@ x:0,opacity:1,duration:2,stagger:{amount:1},ease: "power3.out",
             <div class="container-fluid"  id='nvtbl' style={{ backgroundColor:theme.palette.common.black,textAlign: "center" }}>
                 <a class="navbar-brand" onClick={()=>{
                     navigate("/")
-                }} style={{color:theme.palette.common.white}} href="#">LOGO</a>
+                }} style={{color:theme.palette.common.white}} href="#">KORAKIT</a>
                 <Badge badgeContent={products.length} color="primary">
   <ShoppingCartIcon style={{color:"white"}} sx={{fontSize:30}} onClick={()=>{
     navigate("/cart")
